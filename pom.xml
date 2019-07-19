@@ -32,7 +32,8 @@
   </build>
   <distributionManagement>
    <snapshotRepository>
-    <id>test</id>
+    <id>snapshots</id>
+      <name>Snapshots</name>
     <!-- CHANGE HERE by your team nexus server -->
     <url>http://localhost:8081/repository/test/</url>
   </snapshotRepository>

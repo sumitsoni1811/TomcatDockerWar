@@ -34,8 +34,7 @@
   
   <distributionManagement>
    <repository>
-   <id>Snapshot</id>
-   <name>test</name>
+   <id>nexus-snapshots</id>
    <url>http://localhost:8081/repository/test/</url>
    </repository>
 </distributionManagement>

@@ -30,12 +30,13 @@
   <build>
     <finalName>JenkinsWar</finalName>
   </build>
+
+  
   <distributionManagement>
-   <snapshotRepository>
-    <id>snapshots</id>
-      <name>Snapshots</name>
-    <!-- CHANGE HERE by your team nexus server -->
-    <url>http://localhost:8081/repository/test/</url>
-  </snapshotRepository>
+   <repository>
+   <id>nexus</id>
+   <name>nexus</name>
+   <url>http://localhost:8081/repository/test/</url>
+   </repository>
 </distributionManagement>
 </project>
